@@ -1,4 +1,3 @@
-# 400-assingment3
 
 # Project Title: Kubernetes Nginx and Backend Apps Deployment
 
