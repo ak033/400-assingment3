@@ -63,8 +63,14 @@ When the request is made to the application endpoint (in this case, the NGINX se
 ## Troubleshooting
 Common troubleshooting steps include :
 
-Verifying pod status with kubectl get pods
-Checking logs with kubectl logs <pod-name>
+Verifying pod status with
+```
+kubectl get pods
+```
+Checking logs with 
+```
+kubectl logs <pod-name>
+```
 or you can also do 
 ```bash
  kubectl rollout restart deployment nginx-dep
